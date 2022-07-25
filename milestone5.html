@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1 {
+  text-shadow: 2px 2px 5px yellow;
+}
+div.relative {
+  position: relative;
+  width: 200px;
+  height:250px;
+  border: 3px solid #73AD21;
+  background-color:lightsteelblue;
+float:left;
+ }
+
+div.relativee {
+  position: relative;
+  width: 200px;
+  height:250px;
+  border: 3px solid blue;
+ background-color:lightsteelblue;
+ float:left;
+   
+}
+div.parent {
+   position: absolute;
+ top: 170px;
+  right: 0;
+  width: 200px;
+  height:250px;
+  border: 3px solid coral;
+ background-color:lightsteelblue;
+}
+div.parentt {
+   position: absolute;
+  top: 140px;
+  right: 0;
+  width: 200px;
+  height:250px;
+  border: 3px solid gold;
+ background-color:lightsteelblue;
+}
+div.child {
+   position: absolute;
+  top: 110px;
+  right: 0;
+  width: 200px;
+  height:250px;
+  border: 3px solid indigo;
+ background-color:lightsteelblue;
+}
+</style>
+<head>
+</head>
+<body style="background-image:url('bg.jpg'); ">
+<center><h1 style="color:#ff3300; font-size:60px;">Food Website</h1></center>
+<div class="relative">
+    <b style="font-size:30px;  color:red;">Biriyani</b><br><br>
+    <object data="biriyani.jpg" width="200" height="100" text-align="left"></object><br><br>
+<b style="font-size:30px;text-align:right;">399/-</b><form><label for="qua">Quantity:</label><input type="number" id="qua" name="qua" value="" style ="width:90px;  height:9px;text-align:left;"></form>
+</div>
+<div class="relativee">
+ <b style="font-size:30px;  color:red;">Noodles</b><br><br>
+    <object data="noodles.jpg" width="200" height="100" text-align="left"></object><br><br>
+<b style="font-size:30px;text-align:right; ">70/-</b><form><label for="qua"  >Quantity:</label><input type="number" id="qua" name="qua" value="" style ="width:90px;  height:9px; text-align:left;"></form>
+</div>
+<br>
+<div class="child">
+ <b style="font-size:30px;  color:red;">Chapathi</b><br><br>
+    <object data="chapathi.jpg" width="200" height="100" text-align="left"></object><br><br>
+<b style="font-size:30px;text-align:right; ">90/-</b><form><label for="qua"  >Quantity:</label><input type="number" id="qua" name="qua" value="" style ="width:90px;  height:9px; text-align:left;"></form>
+</div>
+<br>
+<div class="parentt">
+ <b style="font-size:30px;  color:red;">Parota</b><br><br>
+    <object data="parota.jpg" width="200" height="100" text-align="left"></object><br><br>
+<b style="font-size:30px;text-align:right; ">135/-</b><form><label for="qua"  >Quantity:</label><input type="number" id="qua" name="qua" value="" style ="width:90px;  height:9px; text-align:left;"></form>
+</div>
+<div class="parent">
+ <b style="font-size:30px;  color:red;">Rumal Roti</b><br><br>
+    <object data="rumal roti.jpg" width="200" height="100" text-align="left"></object><br><br>
+<b style="font-size:30px;text-align:right; ">185/-</b><form><label for="qua"  >Quantity:</label><input type="number" id="qua" name="qua" value="" style ="width:90px;  height:9px; text-align:left;"></form>
+</div>
+</body>
+</html>
